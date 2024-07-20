@@ -1,0 +1,16 @@
+{
+  "name": "50-grupe-1",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tatiana (https://github.com/TatianaPet121516)",
+  "license": "ISC"
+}
+
+
