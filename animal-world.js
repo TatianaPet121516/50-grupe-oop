@@ -4,6 +4,7 @@ import { Hamster } from "./inheritence/Hamster.js";
 
 import { Shark } from "./inheritence/Shark.js";
 import {GoldenFish} from "./inheritence/GoldenFish.js";
+import { Dolphin } from "./inheritence/Dolphin.js";
 
 console.clear();
 console.log('-------------------');
@@ -38,3 +39,6 @@ const bonny = new GoldenFish ('Bonny');
 console.log(bonny.intro());
 console.log(bonny.voice());
 
+const flipper = new Dolphin ('Flipper');
+console.log(flipper.intro());
+console.log(flipper.voice());
