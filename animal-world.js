@@ -6,6 +6,10 @@ import { Shark } from "./inheritence/Shark.js";
 import {GoldenFish} from "./inheritence/GoldenFish.js";
 import { Dolphin } from "./inheritence/Dolphin.js";
 
+import { Penguin } from "./inheritence/Penguin.js";
+import { Eagle } from "./inheritence/Eagle.js";
+import { Duck } from "./inheritence/Duck.js";
+
 console.clear();
 console.log('-------------------');
 
@@ -42,3 +46,21 @@ console.log(bonny.voice());
 const flipper = new Dolphin ('Flipper');
 console.log(flipper.intro());
 console.log(flipper.voice());
+
+console.log('-------------------');
+const jacob = new Eagle ('Jacob');
+console.log(jacob.intro());
+console.log(jacob.voice());
+console.log(jacob.additionalInfo());
+
+console.log('-------');
+const pino = new Penguin ('Pino');
+console.log(pino.intro());
+console.log(pino.voice());
+console.log(pino.additionalInfo());
+
+console.log('-------');
+const donald = new Duck ('Donald');
+console.log(donald.intro());
+console.log(donald.voice());
+console.log(donald.additionalInfo());
